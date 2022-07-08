@@ -1,0 +1,19 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+lib/
+esm/
+build
+website
+doc-site
+typings
+*.log
+.vscode
+/coverage
+# umi
+.umi
+.umi-production
+.umi-test
+.env.local
