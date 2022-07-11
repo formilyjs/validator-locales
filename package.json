@@ -19,6 +19,7 @@
     "version:minor": "npm version minor",
     "version:preminor": "npm version preminor --preid beta",
     "version:major": "npm version major",
+    "postversion": "git push origin --tags",
     "release": "npm publish"
   },
   "devDependencies": {
