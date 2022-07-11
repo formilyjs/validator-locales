@@ -12,14 +12,14 @@
     "lint": "eslint . --fix",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "preversion": "yarn install --ignore-engines && npm run build && npm run lint",
-    "version:alpha": "lerna version prerelease --preid alpha",
-    "version:beta": "lerna version prerelease --preid beta",
-    "version:rc": "lerna version prerelease --preid rc",
-    "version:patch": "lerna version patch",
-    "version:minor": "lerna version minor",
-    "version:preminor": "lerna version preminor --preid beta",
-    "version:major": "lerna version major",
-    "release": "lerna publish"
+    "version:alpha": "npm version prerelease --preid alpha",
+    "version:beta": "npm version prerelease --preid beta",
+    "version:rc": "npm version prerelease --preid rc",
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:preminor": "npm version preminor --preid beta",
+    "version:major": "npm version major",
+    "release": "npm publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^14.1.0",
