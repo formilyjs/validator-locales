@@ -10,7 +10,15 @@
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm",
     "build:umd": "rollup --config",
     "eslint": "eslint . --fix",
-    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "preversion": "yarn install --ignore-engines && npm run build && npm run lint",
+    "version:alpha": "npm version prerelease --preid alpha",
+    "version:beta": "npm version prerelease --preid beta",
+    "version:rc": "npm version prerelease --preid rc",
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:preminor": "npm version preminor --preid beta",
+    "version:major": "npm version major"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
