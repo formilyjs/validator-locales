@@ -1,6 +1,6 @@
 {
   "name": "@formily/validator-locales",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "main": "lib",
   "types": "lib/index.d.ts",
   "module": "esm",
