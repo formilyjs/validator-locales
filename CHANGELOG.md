@@ -27,6 +27,15 @@
 
 ### No Change Log
 
+## v1.0.0-beta.6(2022-07-12)
+
+
+### :bug: Bug Fixes
+
+1. [fix: change registry](https://github.com/formilyjs/validator-locales/commit/d90b24f) :point_right: ( [yiyunwan](https://github.com/yiyunwan) )    
+  
+
+
 ## v1.0.0-beta.5(2022-07-12)
 
 
