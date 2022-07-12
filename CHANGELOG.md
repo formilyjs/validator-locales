@@ -27,6 +27,15 @@
 
 ### No Change Log
 
+## v1.0.0-beta.4(2022-07-12)
+
+
+### :bug: Bug Fixes
+
+1. [fix: change .npmrc file](https://github.com/formilyjs/validator-locales/commit/18b0b51) :point_right: ( [yiyunwan](https://github.com/yiyunwan) )    
+  
+
+
 ## v1.0.0-beta.3(2022-07-11)
 
 
