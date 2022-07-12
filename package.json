@@ -20,7 +20,7 @@
     "version:preminor": "npm version preminor --preid beta",
     "version:major": "npm version major",
     "postversion": "git push origin --tags",
-    "release": "npm publish"
+    "release": "npm publish --access=public"
   },
   "devDependencies": {
     "@commitlint/cli": "^14.1.0",
