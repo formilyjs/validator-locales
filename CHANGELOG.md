@@ -27,6 +27,27 @@
 
 ### No Change Log
 
+## v1.0.0-rc.0(2022-07-13)
+
+
+### :tada: Enhancements
+
+1. [feat: add pt-BR and es-MX](https://github.com/formilyjs/validator-locales/commit/9b44c7a) :point_right: ( [yiyunwan](https://github.com/yiyunwan) )    
+
+1. [feat: add license](https://github.com/formilyjs/validator-locales/commit/e6cc0f1) :point_right: ( [yiyunwan](https://github.com/yiyunwan) )    
+  
+
+### :bug: Bug Fixes
+
+1. [fix: change as public](https://github.com/formilyjs/validator-locales/commit/d3be53d) :point_right: ( [yiyunwan](https://github.com/yiyunwan) )    
+  
+
+### :blush: Other Changes
+
+1. [chore: del Upload coverage to Codecov](https://github.com/formilyjs/validator-locales/commit/f237445) :point_right: ( [yiyunwan](https://github.com/yiyunwan) )    
+  
+
+
 ## v1.0.0-beta.7(2022-07-12)
 
 
